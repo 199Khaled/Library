@@ -1,0 +1,10 @@
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\bin\Debug\Business_Layer.dll
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\bin\Debug\Business_Layer.pdb
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\bin\Debug\Data_Layer.dll
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\bin\Debug\Data_Layer.pdb
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\obj\Debug\Business_Layer.csproj.AssemblyReference.cache
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\obj\Debug\Business_Layer.csproj.CoreCompileInputs.cache
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\obj\Debug\Business.3851A4FC.Up2Date
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\obj\Debug\Business_Layer.dll
+C:\Users\Hamssa\Desktop\Library_Programm\Business_Layer\obj\Debug\Business_Layer.pdb

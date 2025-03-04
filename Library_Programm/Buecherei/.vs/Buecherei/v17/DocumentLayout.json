@@ -1,0 +1,295 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\borrowings\\frmscreenborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:borrowings\\frmscreenborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\borrowings\\frmscreenreturnbookcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:borrowings\\frmscreenreturnbookcopy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\users\\frmscreenofusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:users\\frmscreenofusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\fines\\frmscreenfines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:fines\\frmscreenfines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\borrowings\\frmscreenborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:borrowings\\frmscreenborrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\books\\frmscreenofbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:books\\frmscreenofbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\frmbookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:frmbookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\frmscreenreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:frmscreenreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\frmscreenreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:frmscreenreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAD4EDC-1DED-45CA-A394-E659EE32EA8D}|..\\Data_Layer\\Data_Layer.csproj|c:\\users\\hamssa\\desktop\\library_programm\\data_layer\\clsreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\books\\filter\\ctfilterofbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:books\\filter\\ctfilterofbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\frmbookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:frmbookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|c:\\users\\hamssa\\desktop\\library_programm\\buecherei\\frmuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{572A9CEC-107B-45FA-B0DA-5567B3CACD85}|Buecherei.csproj|solutionrelative:frmuserdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 107,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmScreenOfUsers.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Users\\frmScreenOfUsers.cs",
+              "RelativeDocumentMoniker": "Users\\frmScreenOfUsers.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Users\\frmScreenOfUsers.cs",
+              "RelativeToolTip": "Users\\frmScreenOfUsers.cs",
+              "ViewState": "AgIAAOcAAAAAAAAAAIA8wPgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:58:31.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmScreenFines.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Fines\\frmScreenFines.cs",
+              "RelativeDocumentMoniker": "Fines\\frmScreenFines.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Fines\\frmScreenFines.cs",
+              "RelativeToolTip": "Fines\\frmScreenFines.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAApwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:53:00.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmScreenReturnBookCopy.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Borrowings\\frmScreenReturnBookCopy.cs",
+              "RelativeDocumentMoniker": "Borrowings\\frmScreenReturnBookCopy.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Borrowings\\frmScreenReturnBookCopy.cs",
+              "RelativeToolTip": "Borrowings\\frmScreenReturnBookCopy.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAcwJ4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:51:59.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmScreenBorrowing.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Borrowings\\frmScreenBorrowing.cs",
+              "RelativeDocumentMoniker": "Borrowings\\frmScreenBorrowing.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Borrowings\\frmScreenBorrowing.cs [Entwurf]",
+              "RelativeToolTip": "Borrowings\\frmScreenBorrowing.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:35:40.123Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmMainScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmMainScreen.cs",
+              "RelativeDocumentMoniker": "frmMainScreen.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmMainScreen.cs",
+              "RelativeToolTip": "frmMainScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:25:02.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmScreenBorrowing.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Borrowings\\frmScreenBorrowing.cs",
+              "RelativeDocumentMoniker": "Borrowings\\frmScreenBorrowing.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Borrowings\\frmScreenBorrowing.cs",
+              "RelativeToolTip": "Borrowings\\frmScreenBorrowing.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA7wCUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:40:26.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmMainScreen.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmMainScreen.cs",
+              "RelativeDocumentMoniker": "frmMainScreen.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmMainScreen.cs [Entwurf]",
+              "RelativeToolTip": "frmMainScreen.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T14:23:56.148Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T12:24:20.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmScreenOfBooks.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Books\\frmScreenOfBooks.cs",
+              "RelativeDocumentMoniker": "Books\\frmScreenOfBooks.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Books\\frmScreenOfBooks.cs [Entwurf]",
+              "RelativeToolTip": "Books\\frmScreenOfBooks.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T12:45:56.541Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmBookDetails.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmBookDetails.cs",
+              "RelativeDocumentMoniker": "frmBookDetails.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmBookDetails.cs [Entwurf]",
+              "RelativeToolTip": "frmBookDetails.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T11:38:30.717Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmScreenReservation.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmScreenReservation.cs",
+              "RelativeDocumentMoniker": "frmScreenReservation.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmScreenReservation.cs",
+              "RelativeToolTip": "frmScreenReservation.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAArwHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:50:01.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmScreenReservation.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmScreenReservation.cs",
+              "RelativeDocumentMoniker": "frmScreenReservation.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmScreenReservation.cs [Entwurf]",
+              "RelativeToolTip": "frmScreenReservation.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:44:54.335Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "clsReservations.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Data_Layer\\clsReservations.cs",
+              "RelativeDocumentMoniker": "..\\Data_Layer\\clsReservations.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Data_Layer\\clsReservations.cs",
+              "RelativeToolTip": "..\\Data_Layer\\clsReservations.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowHkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:02:59.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ctFilterOfBooks.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Books\\Filter\\ctFilterOfBooks.cs",
+              "RelativeDocumentMoniker": "Books\\Filter\\ctFilterOfBooks.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\Books\\Filter\\ctFilterOfBooks.cs [Entwurf]",
+              "RelativeToolTip": "Books\\Filter\\ctFilterOfBooks.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T12:39:29.309Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmBookDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmBookDetails.cs",
+              "RelativeDocumentMoniker": "frmBookDetails.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmBookDetails.cs",
+              "RelativeToolTip": "frmBookDetails.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:15:19.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmUserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmUserDetails.cs",
+              "RelativeDocumentMoniker": "frmUserDetails.cs",
+              "ToolTip": "C:\\Users\\Hamssa\\Desktop\\Library_Programm\\Buecherei\\frmUserDetails.cs",
+              "RelativeToolTip": "frmUserDetails.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T15:36:02.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 107,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
