@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using LibraryDb_DataAccess;
 using Newtonsoft.Json;
+using System.Runtime.CompilerServices;
 
 namespace LibraryDb_DataLayer
 {
@@ -59,7 +60,7 @@ namespace LibraryDb_DataLayer
 
         public static DataTable GetAllReservations()
 {
-    DataTable dt = new DataTable();
+       DataTable dt = new DataTable();
 
     try
     {
@@ -88,10 +89,9 @@ namespace LibraryDb_DataLayer
         // Handle all exceptions in a general way
         ErrorHandler.HandleException(ex, nameof(GetAllReservations), "No parameters for this method.");
     }
-
+    
     return dt;
 }
-
         public static bool IsThis_BookCopyReserved(int? CopyID)
         {
             int rowAffected = 0;

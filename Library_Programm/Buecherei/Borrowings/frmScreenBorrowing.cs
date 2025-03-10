@@ -15,12 +15,15 @@ namespace Buecherei
     public partial class frmScreenBorrowing: Form
     {
         clsBorrowingRecords _borrowings;
+        BindingSource _bindingSource;
+
         int _bookID;
         enum enMode { Addnew = 1, Update = 2 }
         enMode _Mode = enMode.Addnew;
         public frmScreenBorrowing()
         {
             InitializeComponent();
+            _bindingSource = new BindingSource();
             _Mode = enMode.Addnew;
             ctFilterOfBooks2.FilterEnable = true;
         }
@@ -84,9 +87,19 @@ namespace Buecherei
             this.Close();
         }
 
+        private void _LoadBorrowingDataFromDatabase()
+        {
+            DataTable dtBorrowingData = clsBorrowingRecords.GetAllBorrowingRecords();
+            if (dtBorrowingData != null && dtBorrowingData.Rows.Count > 0)
+            {
+                _bindingSource.DataSource = dtBorrowingData;
+                dgvBorrowings.DataSource = _bindingSource;
+            }
+        }
         private void frmScreenBorrowing_Load(object sender, EventArgs e)
         {
             _ResetDefaultValue();
+            _LoadBorrowingDataFromDatabase();
         }
 
         private bool _IsFillDataSuccessfully()
@@ -107,6 +120,7 @@ namespace Buecherei
                 MessageBox.Show("This Copy is not available!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
+  
             _borrowings.CopyID = copyID;
             _borrowings.BorrowingDate = dtpBorrowingDate.Value;
 
@@ -197,6 +211,8 @@ namespace Buecherei
         private void btnBorrowBook_Click(object sender, EventArgs e)
         {
             _isDataSavedSuccessfully();
+
+            _LoadBorrowingDataFromDatabase();
         }
 
         private void btnUserDetails_Click(object sender, EventArgs e)
@@ -218,6 +234,91 @@ namespace Buecherei
 
             frmUserDetails frm = new frmUserDetails(users);
             frm.ShowDialog();
+        }
+
+        private void cbFilterby_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbFilterby.Text == "BorrowingDate")
+            {
+                txtFilterValue.Visible = false;
+                dtpFilterByDate.Visible = true;
+            }
+            else
+            {
+                txtFilterValue.Visible = true;
+                dtpFilterByDate.Visible = false;
+            }
+            if (cbFilterby.SelectedIndex != -1)
+            {
+                txtFilterValue.Clear();
+                txtFilterValue.Focus();
+            }
+        }
+
+        private void _ApplyFilter()
+        {
+            string filterValue = txtFilterValue.Text.Trim();
+            string filterColumn = cbFilterby.Text.Trim();
+            DateTime searchedDate = dtpFilterByDate.Value;
+
+            if (filterColumn == "BorrowingDate")
+            {
+                _bindingSource.Filter = $"{filterColumn} = #{searchedDate:MM/dd/yyyy}#";
+            }
+            else if (!string.IsNullOrEmpty(filterValue))
+            {
+                if (filterColumn == "BorrowingRecordID" || filterColumn == "CopyID" || filterColumn == "UserID")
+                {
+                    dtpFilterByDate.Visible = false;
+                    _bindingSource.Filter = $"{filterColumn} = {filterValue}";
+                }
+            }
+            else
+            {
+                _bindingSource.Filter = string.Empty;
+            }
+        }
+        private void txtFilterValue_TextChanged(object sender, EventArgs e)
+        {
+            _ApplyFilter();
+        }
+
+        private void txtFilterValue_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            string filterColumn = cbFilterby.Text.Trim();
+            if (filterColumn == "BorrowingRecordID" || filterColumn == "CopyID" || filterColumn == "UserID")
+            {
+                if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+                    e.Handled = true;
+            }
+        }
+
+        private void dtpFilterByDate_ValueChanged(object sender, EventArgs e)
+        {
+            _ApplyFilter();
+        }
+
+        private void dgvBorrowings_DoubleClick(object sender, EventArgs e)
+        {
+            _ResetDefaultValue();
+
+            _Mode = enMode.Update;
+            btnBorrowBook.Text = "Update";
+            int borrowingID = (int)dgvBorrowings.CurrentRow.Cells[0].Value;
+            _borrowings = clsBorrowingRecords.FindByBorrowingRecordID(borrowingID);
+
+            _LoadData(_borrowings);
+        }
+        private void _LoadData(clsBorrowingRecords borrowings)
+        {
+            if(borrowings != null)
+            {
+                txtUserID.Text = borrowings.UserID.ToString();
+                cbCopyItems.Items.Add(borrowings.CopyID);
+                cbCopyItems.SelectedIndex = 0;
+                dtpBorrowingDate.Value = borrowings.BorrowingDate.Value;
+                dtpDueDate.Value = borrowings.DueDate.Value;
+            }
         }
     }
 }

@@ -88,6 +88,7 @@
             this.label1.Size = new System.Drawing.Size(78, 20);
             this.label1.TabIndex = 27;
             this.label1.Text = "Filter by:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtFilterValue
             // 

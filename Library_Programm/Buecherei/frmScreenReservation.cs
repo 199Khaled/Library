@@ -41,7 +41,8 @@ namespace Buecherei
             lblReservationID.Text = "??";
             btnReserveBook.Text = "reserve book";
             txtUserID.Clear();
-            dtpReservationDate.Value = DateTime.Now;
+            byte? defualtReservationDays = clsSettings.FindBySettingID(1).DefaultReservationDays;
+            dtpReservationDate.Value = DateTime.Now.Date.AddDays((byte)defualtReservationDays);
             chbIsReserved.Checked = true;
         }
 
@@ -49,7 +50,7 @@ namespace Buecherei
         {
             _dtReservation = clsReservations.GetAllReservations();
             if (_dtReservation != null && _dtReservation.Rows.Count > 0)
-            {
+            {            
                 _bindingSource.DataSource = _dtReservation;
                 dgvReservations.DataSource = _bindingSource;
             }

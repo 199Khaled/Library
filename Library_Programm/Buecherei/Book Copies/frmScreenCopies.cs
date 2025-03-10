@@ -171,5 +171,10 @@ namespace Buecherei
                 MessageBox.Show("An error occurred while deleting the Copy. Please try again.", "Deletion Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

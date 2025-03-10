@@ -60,7 +60,7 @@
             this.btnManageReservations.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnManageReservations.Image = global::Buecherei.Properties.Resources.ReseveBook;
             this.btnManageReservations.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnManageReservations.Location = new System.Drawing.Point(214, 363);
+            this.btnManageReservations.Location = new System.Drawing.Point(214, 197);
             this.btnManageReservations.Name = "btnManageReservations";
             this.btnManageReservations.Size = new System.Drawing.Size(167, 160);
             this.btnManageReservations.TabIndex = 6;
@@ -87,7 +87,7 @@
             this.btnMangeReturns.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMangeReturns.Image = global::Buecherei.Properties.Resources.returnBook;
             this.btnMangeReturns.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMangeReturns.Location = new System.Drawing.Point(214, 197);
+            this.btnMangeReturns.Location = new System.Drawing.Point(214, 363);
             this.btnMangeReturns.Name = "btnMangeReturns";
             this.btnMangeReturns.Size = new System.Drawing.Size(167, 160);
             this.btnMangeReturns.TabIndex = 3;
